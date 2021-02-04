@@ -1,0 +1,24 @@
+dependencies:
+- name: kafka
+  repository: https://kubernetes-charts-incubator.storage.googleapis.com
+  version: 0.13.3
+- name: prometheus
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 8.3.0
+- name: grafana
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 1.21.2
+- name: edge-service
+  repository: file://../edge-service
+  version: 0.1.0
+- name: friend-service
+  repository: file://../friend-service
+  version: 0.2.0
+- name: recommendation-service
+  repository: file://../recommendation-service
+  version: 0.1.0
+- name: user-service
+  repository: file://../user-service
+  version: 0.2.0
+digest: sha256:94ecc5c40798b16baa7ce5e3ffcec50c4e2f5376acaf27b7e6970ae398a86061
+generated: "2020-05-13T14:28:05.7530827+02:00"
